@@ -1,0 +1,15 @@
+CREATE DATABASE php_test
+
+CREATE TABLE `php_test`.`user` (
+    id int NOT NULL AUTO_INCREMENT,
+    username varchar(255) NOT NULL,
+    password varchar(32) NOT NULL,
+    name varchar(255) NOT NULL
+);
+
+CREATE TABLE `php_test`.`articles` (
+    id int NOT NULL AUTO_INCREMENT,
+    title varchar(255) NOT NULL,
+    content TEXT NOT NULL,
+    user_id int NOT NULL
+);

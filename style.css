@@ -1,0 +1,34 @@
+body {
+    background-color: #f2f3f8;
+    font-family: sans-serif;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+h1 {
+    margin-left: 0.5em;
+}
+
+.login {
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #eae7e7;
+    padding: 20px;
+    border: 3px solid #919ece;
+}
+
+p.error {
+    color: red;
+}
+
+.articles {
+    margin-top: 1em;
+    margin-left: 0;
+    margin-right: 0;
+    background-color: #eae7e7;
+    padding: 20px;
+    border-top: 3px solid #919ece;
+    border-bottom: 3px solid #919ece;
+}
